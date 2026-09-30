@@ -1,0 +1,13 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+notebooks/
+data/raw/
+data/processed/
+mlflow.db
+.pytest_cache/
+.DS_Store

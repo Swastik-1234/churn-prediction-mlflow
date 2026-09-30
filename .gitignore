@@ -1,0 +1,24 @@
+# venvs
+.venv/
+venv/
+env/
+
+# OS cruft
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Big artifacts we don't want in git — run scripts/run_pipeline.py to regenerate
+mlruns/
+artifacts/
+data/raw/
+data/processed/
+
+# stray local MLflow SQLite db, unused by the current file-store tracking setup
+mlflow.db
+
+# pytest
+.pytest_cache/
